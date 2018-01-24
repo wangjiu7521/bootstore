@@ -7,9 +7,16 @@
   <display-name></display-name>
   <servlet>
     <servlet-name>UserServlet</servlet-name>
-    <servlet-class>wangjiu.bookstore.user.service.UserServlet</servlet-class>
+    <servlet-class>wangjiu.bookstore.user.web.servlet.UserServlet</servlet-class>
   </servlet>
-
+	<servlet>
+    <servlet-name>VerifyCodeServlet</servlet-name>
+    <servlet-class>wangjiu.bookstore.user.web.servlet.VerifyCodeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>VerifyCodeServlet</servlet-name>
+    <url-pattern>/VerifyCodeServlet</url-pattern>
+  </servlet-mapping>
   <servlet-mapping>
     <servlet-name>UserServlet</servlet-name>
     <url-pattern>/UserServlet</url-pattern>

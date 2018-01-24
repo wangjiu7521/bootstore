@@ -7,12 +7,6 @@
   <head>
     
     <title>main</title>
-    
-	<meta http-equiv="pragma" content="no-cache">
-	<meta http-equiv="cache-control" content="no-cache">
-	<meta http-equiv="expires" content="0">    
-	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
-	<meta http-equiv="description" content="This is my page">
 	<meta http-equiv="content-type" content="text/html;charset=utf-8">
 	<!--
 	<link rel="stylesheet" type="text/css" href="styles.css">
@@ -29,7 +23,7 @@
 	</tr>
 	<tr>
 		<td class="tdLeft" rowspan="2">
-			<iframe frameborder="0" src="<c:url value='/CategoryServlet?method=findAll'/>" name="left"></iframe>
+			<iframe frameborder="0" src="<c:url value='/jsps/left.jsp'/>" name="left"></iframe>
 		</td>
 		<td class="tdSearch" style="border-bottom-width: 0px;">
 			<iframe frameborder="0" src="<c:url value='/jsps/search.jsp'/>" name="search"></iframe>
